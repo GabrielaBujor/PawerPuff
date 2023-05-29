@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PawerPuff</string>
+    <string name="adopt">Adopt</string>
+    <string name="ghiocel">ghiocel</string>
+    <string name="leo">leo</string>
+    <string name="linda">linda</string>
+    <string name="liz">liz</string>
+    <string name="lucky">lucky</string>
+    <string name="maya">maya</string>
+    <string name="miky">miky</string>
+    <string name="nero">nero</string>
+    <string name="Nero">Nero</string>
+    <string name="sascha">sascha</string>
+    <string name="scooby">scooby</string>
+    <string name="toby">toby</string>
+    <string name="tundra">tundra</string>
+    <string name="ursu">ursu</string>
+    <string name="yogi">yogi</string>
+
+        <string name="Offices">Offices</string>
+        <string name="Select">Select Item</string>
+        <string-array name="office">
+            <item>Timisoara-Est</item>
+            <item>Timisoara-Nord</item>
+            <item>Timisoara-Centru</item>
+            <item>Cluj</item>
+            <item>Oradea</item>
+        </string-array>
+</resources>

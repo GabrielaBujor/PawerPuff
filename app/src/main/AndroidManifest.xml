@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PawerPuff"
+        tools:targetApi="31">
+        <activity
+            android:name=".Virtually"
+            android:exported="false" />
+        <activity
+            android:name=".Physically"
+            android:exported="false" />
+        <activity
+            android:name=".Yogi"
+            android:exported="false" />
+        <activity
+            android:name=".Ursu"
+            android:exported="false" />
+        <activity
+            android:name=".Tundra"
+            android:exported="false" />
+        <activity
+            android:name=".Toby"
+            android:exported="false" />
+        <activity
+            android:name=".Scooby"
+            android:exported="false" />
+        <activity
+            android:name=".Sascha"
+            android:exported="false" />
+        <activity
+            android:name=".Negro"
+            android:exported="false" />
+        <activity
+            android:name=".Nero"
+            android:exported="false" />
+        <activity
+            android:name=".Miky"
+            android:exported="false" />
+        <activity
+            android:name=".Maya"
+            android:exported="false" />
+        <activity
+            android:name=".Lucky"
+            android:exported="false" />
+        <activity
+            android:name=".Liz"
+            android:exported="false" />
+        <activity
+            android:name=".Linda"
+            android:exported="false" />
+        <activity
+            android:name=".Leo"
+            android:exported="false" />
+        <activity
+            android:name=".Ghiocel"
+            android:exported="false" />
+        <activity
+            android:name=".Donate"
+            android:exported="false" />
+        <activity
+            android:name=".Adopt"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
