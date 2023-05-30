@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine"
+        android:id="@+id/tv_fullname"
         android:layout_width="380dp"
         android:layout_height="52dp"
         android:layout_marginStart="21dp"
@@ -30,7 +30,7 @@
         android:layout_marginEnd="13dp"
         android:ems="10"
         android:gravity="start|top"
-        android:hint="Name"
+        android:hint="@string/FullName"
         android:inputType="textMultiLine"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,7 +39,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine2"
+        android:id="@+id/tv_address"
         android:layout_width="380dp"
         android:layout_height="0dp"
         android:layout_marginStart="21dp"
@@ -47,77 +47,89 @@
         android:layout_marginEnd="12dp"
         android:ems="10"
         android:gravity="start|top"
-        android:hint="Address"
+        android:hint="@string/Address"
         android:inputType="textMultiLine"
         android:minHeight="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine4" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_email" />
 
-    <EditText
-        android:id="@+id/editTextTextMultiLine3"
-        android:layout_width="374dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="280dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:hint="Other dogs?"
-        android:inputType="textMultiLine"
-        android:minHeight="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="12dp"
+        android:minHeight="48dp"
+        android:text="@string/Otherdogs"
+        app:layout_constraintBottom_toTopOf="@+id/btn_submit"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.185"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_phone" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine4"
+        android:id="@+id/tv_email"
         android:layout_width="377dp"
-        android:layout_height="47dp"
+        android:layout_height="48dp"
         android:layout_marginStart="21dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="13dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
-        android:minHeight="50dp"
-        android:hint="E-mail address"
         android:gravity="start|top"
+        android:hint="@string/Emailaddress"
         android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine2"
+        android:minHeight="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_address"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fullname"
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/tv_phone"
         android:layout_width="374dp"
         android:layout_height="51dp"
         android:layout_marginStart="21dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="23dp"
         android:ems="10"
-        android:hint="Phone number"
+        android:hint="@string/PhoneNumber"
         android:inputType="phone"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine2" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_address" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btn_submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="159dp"
-        android:layout_marginTop="77dp"
+        android:layout_marginTop="55dp"
         android:layout_marginEnd="162dp"
-        android:layout_marginBottom="155dp"
+        android:layout_marginBottom="251dp"
         android:text="Submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine3" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_phone" />
+
+    <Button
+        android:id="@+id/btn_view"
+        android:layout_width="75dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="338dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="248dp"
+        android:text="view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_phone" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -19,7 +19,12 @@
 
         <string name="Offices">Offices</string>
         <string name="Select">Select Item</string>
-        <string-array name="office">
+    <string name="FullName">Full Name</string>
+    <string name="Emailaddress">E-mail address</string>
+    <string name="PhoneNumber">Phone Number</string>
+    <string name="Address">Address</string>
+    <string name="Otherdogs">Other dogs</string>
+    <string-array name="office">
             <item>Timisoara-Est</item>
             <item>Timisoara-Nord</item>
             <item>Timisoara-Centru</item>
